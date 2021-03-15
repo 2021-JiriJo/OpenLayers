@@ -111747,7 +111747,7 @@ function init() {
 
   var stamenTerrain = new _layer.Tile({
     source: new _source.XYZ({
-      url: 'http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg',
+      url: 'https://tile.stamen.com/terrain/{z}/{x}/{y}.jpg',
       attributions: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }),
     visible: false,
@@ -111823,7 +111823,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "6603" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "7915" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
