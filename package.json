@@ -1,0 +1,26 @@
+{
+  "name": "openlayers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020CapstoneDesign/OpenLayers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2020CapstoneDesign/OpenLayers/issues"
+  },
+  "homepage": "https://github.com/2020CapstoneDesign/OpenLayers#readme",
+  "dependencies": {
+    "ol": "^6.5.0",
+    "vue": "^2.6.12",
+    "vuelayers": "^0.11.31"
+  }
+}
