@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build --public-url . index.html"
+    "build": "rm -rf dist && parcel build index.html --public-url https://2021-jirijo.github.io/OpenLayers",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,12 @@
   "bugs": {
     "url": "https://github.com/2020CapstoneDesign/OpenLayers/issues"
   },
-  "homepage": "https://github.com/2020CapstoneDesign/OpenLayers#readme",
+  "homepage": "https://2021-jirijo.github.io/OpenLayers/",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "ol": "^6.5.0",
     "vue": "^2.6.12",
     "vuelayers": "^0.11.31"
   }
+
 }
