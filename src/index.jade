@@ -1,0 +1,11 @@
+html(lang='ko') 
+    head 
+        meta(charset='utf-8')
+        title Main Page 
+    
+    body 
+        p  학습 내용 정리 페이지
+        ul
+        each dir, i in dirs
+            li 
+                a(href='static/#{dir}/index.html') #{dir}
