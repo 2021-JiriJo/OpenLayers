@@ -2,19 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Earthquake Clusters</title>
+    <title>Custom Controls</title>
     <style>
       .map {
         width: 100%;
         height:400px;
       }
+      .rotate-north {
+        top: 65px;
+        left: .5em;
+      }
+      .ol-touch .rotate-north {
+        top: 80px;
+      }
     </style>
+    <link rel="stylesheet" href="../../../node_modules/ol/ol.css">
   </head>
-  <link rel="stylesheet" href="../../../node_modules/ol/ol.css">
   <body>
-    
-    <div id="map" class="map"></div>
-    <span id="info"></span>
+    <div id="js-map" class="map"></div>
     <div class="footer">
       <ul>
         <li><a href="javascript:history.back()">뒤로가기</a></li>
