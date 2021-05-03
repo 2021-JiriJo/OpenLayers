@@ -25,9 +25,9 @@
   "dependencies": {
     "gh-pages": "^3.1.0",
     "jade": "^1.11.0",
-    "ol": "^6.5.0",
-    "parcel": "^1.12.3",
-    "vue": "^2.6.12",
-    "vuelayers": "^0.11.31"
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }

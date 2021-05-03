@@ -1,4 +1,3 @@
-import 'ol/ol.css';
 import Map from 'ol/Map';
 import OSM from 'ol/source/OSM';
 import TileLayer from 'ol/layer/Tile';
